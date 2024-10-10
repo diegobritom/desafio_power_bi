@@ -1,54 +1,103 @@
-# Relatorio-Vendas-Power-BI
-Desafio de Projeto da DIO  
+# Módulo 1: Fundamentos da Análise de Dados e BI
 
-Este é um relatorio de Vendas, Lucros e descontos de alto desempenho, projetada para simplificar e tornar seguras as vizualizações e tomadas de decisões por parte de gestores. Com este relatorio , você pode gerenciar suas vendas com facilidade e confiança.
+## Projeto 1: Análise de Dados com meu Primeiro Projeto no Power BI
 
+**Descrição:** Este desafio é projetado para aprimorar suas habilidades na criação de visualizações. Você terá a chance de se familiarizar com esses recursos, enquanto em módulos avançados abordaremos layouts mais sofisticados.
 
-## :closed_book:Componentes Principais
+**Arquivos:** Financial Sample PBI.pbix
 
-- **Segmentadores de dados** 
+### Dashboard - online
 
-- **Visuais personalizados**
+A Dashboard inclui:
 
-- **Botões de navegação entre as páginas** 
+- **Mapa 1:** Total de vendas e unidades vendidas por país.
+- **Mapa 2:** Total de lucro por país.
+- **Gráfico de Pizza:** Lucro por segmento.
 
-- **Botões com indicadores para alternar entre os gráficos mostrados**
+**Atividades:**
 
+- Ajustar a disposição dos visuais no relatório.
+- Renomear os visuais para algo mais claro e contextualizado.
+- Revisar os campos utilizados como dicas de ferramenta.
+- Publicar o relatório.
+- Compartilhar como suplemento no PowerPoint.
 
-## :mag_right:Como Usar
+---
 
-Para realizar edições ou obter uma visualização mais detalhada deste relatório, é necessário utilizar o Power BI Desktop ou o Power BI Service. Além disso, há uma versão disponível em formato PDF neste arquivo, no entanto, ela não oferece as diversas funcionalidades interativas que o Power BI proporciona.
+# Módulo 2: Visualização de Dados e Relatórios com Power BI
 
-## :hammer_and_pick:Tecnologias Utilizadas
+## Projeto 2: Relatório de Vendas Elegante com Power BI
 
-- Power BI
-- Arquivo de Dados em CSV
+**Descrição:** Desenvolver um relatório mais complexo com base na amostra financeira do Power BI.
 
-## :pushpin:Contribuições
+**Arquivos:** Dio-Desafio-Modulo02.pbix
 
-Fique à vontade para contribuir com melhorias, correções de bugs ou novos recursos para este relatorio. Basta fazer um fork do repositório, criar sua branch, e enviar um pull request. Sua ajuda é bem-vinda!
+### Dashboard - online
 
-## :pushpin:Exemplos de vizualizacao do relatorio:
+**Objetivos:**
 
-**Sales Report -** Nesta  Primeira Pagina do Relatorio demos enfase a apresentação do relatório de vendas.
+- Estruturar o relatório.
+- Incluir botões de navegação para facilitar a navegação.
+- Adicionar segmentadores e botões com imagens associadas.
+- Usar indicadores e botões para selecionar diferentes visualizações sobre o mesmo tema.
+- Publicar seu relatório no Power BI Service.
+- Enviar seu projeto através do link no GitHub.
 
-![Primeira Pagina](https://github.com/shaienne23/Relatorio-Vendas-Power-BI/blob/main/Pagina%201%20-%20Desafio%20Projeto%20Dio.PNG)
+---
 
-**Lucro Detalhado Report -** Nesta Segunda Pagina do Relatorio demos enfase a apresentação do relatório de Lucro Detalhado.
+# Módulo 3: Processamento de Dados com Power BI
 
-![Segunda Pagina](https://github.com/shaienne23/Relatorio-Vendas-Power-BI/blob/main/Pagina%202%20-%20Desafio%20Projeto%20Dio.PNG)
+## Projeto 3: Processamento e Transformação de Dados com Power BI
 
-**Report de descontos Detalhados -** Nesta  Terceira Pagina do Relatorio demos enfase a apresentação do relatório de descontos detalhado.
+**Descrição:** Criar uma base de dados no MySQL, conectá-la ao Power BI, e realizar a transformação e visualização dos dados.
 
-![Terceira  Pagina](https://github.com/shaienne23/Relatorio-Vendas-Power-BI/blob/main/Pagina%203%20-%20Desafio%20Projeto%20Dio.PNG)
+**Arquivos:** Dio-Desafio-Modulo03.pbix
 
-## :pushpin:Observações:
+### Passos:
 
-**#** O relatório não está disponível publicamente devido à minha falta de uma licença Power BI Pro.
+1. Criar a base *company* no Banco de Dados MySQL.
+2. Executar o script para criar a estrutura da base.
+3. Executar o script para inserir os dados.
+4. Conectar o Power BI ao MySQL.
+5. Realizar a transformação dos dados.
+6. Criar uma visualização simples.
 
-**#** A apresentação do gráfico hierárquico de média de lucro no Power BI Service não é viável devido à ausência da licença necessária para este visual específico.
+---
 
-**#** Como solução alternativa, procedi com substituições para este campo de dados.
+# Módulo 4: Modelagem de Dados com Power BI
 
-<h2>✒️ Autora</h2>
-<strong>Shaienne Oliveira</st
+## Projeto 4.1: Criando um Star Schema para Cenários de Vendas com Power BI
+
+**Descrição:** Criar um diagrama dimensional (star schema) com base no diagrama relacional fornecido.
+
+**Arquivos:** Dio-Desafio-Modulo04-1.pbix
+
+---
+
+## Projeto 4.2: Modelagem e Transformação de Dados com DAX
+
+**Descrição:** Utilizar a tabela de amostra financeira para criar as tabelas dimensão e fato do modelo baseado em star schema.
+
+**Arquivos:** Dio-Desafio-Modulo04-2.pbix
+
+---
+
+# Módulo 5: Data Analytics & Storytelling com Power BI
+
+## Projeto 5.1: Atualizando Relatório no Power BI com Foco na Experiência do Usuário
+
+**Descrição:** Modificar o relatório de forma criativa, priorizando a experiência do usuário.
+
+**Arquivos:** Dio-Desafio5-1-Modulo05.pbix
+
+---
+
+## Como Contribuir
+
+Se você também é apaixonado por dados, suas contribuições são muito bem-vindas! Faça um fork do repositório, adicione suas próprias ideias ou sugira melhorias. Juntos, podemos tornar este projeto ainda melhor! 🤝💬
+
+## Como Começar
+
+1. Clone o repositório.
+2. Abra o arquivo principal no Power BI.
+3. Explore, descubra e divirta-se!
